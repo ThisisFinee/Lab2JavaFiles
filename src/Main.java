@@ -135,7 +135,7 @@ public class Main {
         File file = new File(root);
         File file1 = new File(root1);
         if (file.exists()){
-            System.out.println("The counter file has already been created");
+                System.out.println("The counter file has already been created");
         }
         else{
             System.out.println("No counter file");
@@ -185,8 +185,13 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter file name:");
         String name = in.next();
-        System.out.println("Enter some text to write to file(Enter an empty string to end input):");
-        String SomeText = TextInput();
-        WriteToFile(name, SomeText);
+        System.out.println("Do you need to write text to the file (yes/no)?");
+        String ask = in.next();
+        if (ask.contains("yes")){
+            System.out.println("Enter some text to write to file(Enter an empty string to end input):");
+            String SomeText = TextInput();
+            WriteToFile(name, SomeText);
+        }
         MainOperation(name);
-    }}
+    }
+}
