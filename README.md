@@ -1,5 +1,5 @@
 # Lab2 Java 
-## [Файл с кодом находится здесь](https://github.com/ThisisFinee/Lab2JavaFiles/blob/d27ed5dab59f5ab288634aedac5347b7ad9fdbcb/src/Main.java)
+## [Файл с кодом находится здесь](https://github.com/ThisisFinee/Lab2JavaFiles/blob/68582b39e00b0dd08134d86864e8e09c669163f0/out/production/Lab2JavaFiles/Main.class)
 ---
 ## Функции
 ### Основные функции:
